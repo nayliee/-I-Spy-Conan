@@ -72,15 +72,56 @@
         </p>
     </div>
 
-</div>
+.feature-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 18px !important;
+    margin-top: 50px !important;
+}
 
-        
-            <li>Portable and lightweight design</li>
-            <li>Magnetic attachment for easy carrying</li>
-            <li>NFC access to user manual</li>
-            <li>Loud alarm when detection occurs</li>
-            <li>Easy and convenient to use</li>
-        </ul>
+#product .feature-card {
+    background: #181a1d !important;
+    border: 1px solid #303237 !important;
+    border-radius: 8px;
+    padding: 28px !important;
+    min-height: 230px;
+}
+
+#product .feature-card span {
+    color: #e63946;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#product .feature-card h3 {
+    color: white !important;
+    margin: 45px 0 15px !important;
+    font-size: 16px;
+}
+
+#product .feature-card p {
+    color: #9fa3a9 !important;
+    text-align: left !important;
+    margin: 0 !important;
+    line-height: 1.6;
+}
+
+#product .feature-card:hover {
+    border-color: #e63946 !important;
+    transform: translateY(-6px);
+}
+
+@media (max-width: 900px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .feature-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
     </section>
 
 
