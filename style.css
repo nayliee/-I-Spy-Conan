@@ -1,314 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>I SPY CONAN | Smart Camera Detector</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <header class="navbar">
-        <div class="logo">
-            I SPY <span>CONAN</span>
-        </div>
-
-        <nav>
-            <a href="#product">Product</a>
-            <a href="#howto">How to Use</a>
-            <a href="#buy">How to Buy</a>
-        </nav>
-    </header>
-
-
-    <!-- Hero Section -->
-    <section class="hero">
-
-        <div class="hero-text">
-
-            <p class="small-title">SMART SECURITY TECHNOLOGY</p>
-
-            <h1>
-                YOUR PRIVACY.<br>
-                <span>OUR PRIORITY.</span>
-            </h1>
-
-            <p class="description">
-                I Spy Conan is a portable camera detector designed
-                to help users detect suspicious hidden cameras
-                in their surroundings.
-            </p>
-
-            <div class="buttons">
-
-                <a href="#buy" class="btn primary">
-                    BUY NOW
-                </a>
-
-                <a href="#product" class="btn secondary">
-                    LEARN MORE
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-product">
-
-            <div class="scan-circle">
-                <div class="scan-line"></div>
-
-                <div class="product-placeholder">
-                    I SPY<br>
-                    CONAN
-                </div>
-            </div>
-
-            <p class="status">
-                ● SECURITY SYSTEM READY
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Product Information -->
-    <section id="product" class="section">
-
-        <p class="small-title">01 — PRODUCT INFORMATION</p>
-
-        <h2>
-            Security that<br>
-            <span>travels with you.</span>
-        </h2>
-
-        <p class="section-description">
-            I Spy Conan combines portability, smart features and
-            convenient technology to provide an easy way to scan
-            your surroundings for suspicious cameras.
-        </p>
-
-
-        <div class="features">
-
-            <div class="feature-card">
-
-                <div class="feature-number">01</div>
-
-                <h3>NFC ACCESS</h3>
-
-                <p>
-                    Tap your phone on the NFC area to access
-                    the user manual and usage guide.
-                </p>
-
-            </div>
-
-
-            <div class="feature-card">
-
-                <div class="feature-number">02</div>
-
-                <h3>MAGNETIC DESIGN</h3>
-
-                <p>
-                    The magnetic feature allows the device
-                    to attach easily to the back of your phone.
-                </p>
-
-            </div>
-
-
-            <div class="feature-card">
-
-                <div class="feature-number">03</div>
-
-                <h3>LOUD ALARM</h3>
-
-                <p>
-                    A loud alarm provides an immediate alert
-                    when a suspicious detection occurs.
-                </p>
-
-            </div>
-
-
-            <div class="feature-card">
-
-                <div class="feature-number">04</div>
-
-                <h3>PORTABLE</h3>
-
-                <p>
-                    Compact and lightweight design makes
-                    I Spy Conan easy to carry anywhere.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- How To Use -->
-    <section id="howto" class="how-section">
-
-        <p class="small-title">02 — HOW TO USE</p>
-
-        <h2>
-            Scan.<br>
-            <span>Detect. Stay Safe.</span>
-        </h2>
-
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">01</div>
-
-                <div>
-                    <h3>TURN ON</h3>
-
-                    <p>
-                        Turn on the I Spy Conan camera detector
-                        before starting your scan.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">02</div>
-
-                <div>
-                    <h3>SCAN THE AREA</h3>
-
-                    <p>
-                        Slowly move the detector around the
-                        area you want to check.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">03</div>
-
-                <div>
-                    <h3>CHECK THE ALERT</h3>
-
-                    <p>
-                        When suspicious detection occurs,
-                        the device will produce a loud alarm.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">04</div>
-
-                <div>
-                    <h3>ACCESS NFC MANUAL</h3>
-
-                    <p>
-                        Tap your smartphone on the NFC area
-                        to access the product guide.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- How To Buy -->
-    <section id="buy" class="buy-section">
-
-        <div class="buy-content">
-
-            <p class="small-title">03 — HOW TO BUY</p>
-
-            <h2>
-                Ready to protect<br>
-                <span>your privacy?</span>
-            </h2>
-
-            <p>
-                Get your I Spy Conan and bring smart security
-                technology wherever you go.
-            </p>
-
-
-            <div class="buy-steps">
-
-                <p><span>01</span> Choose your quantity</p>
-
-                <p><span>02</span> Contact our seller</p>
-
-                <p><span>03</span> Confirm your order</p>
-
-                <p><span>04</span> Complete payment</p>
-
-            </div>
-
-
-            <button onclick="buyNow()" class="buy-button">
-                GET I SPY CONAN →
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <div class="footer-logo">
-            I SPY <span>CONAN</span>
-        </div>
-
-        <p>
-            Smart Camera Detection Technology
-        </p>
-
-        <p class="copyright">
-            © 2026 I Spy Conan. All Rights Reserved.
-        </p>
-
-    </footer>
-
-
-    <script>
-
-        function buyNow() {
-
-            alert(
-                "Thank you for your interest in I Spy Conan!"
-            );
-
-        }
-
-    </script>
-
-</body>
-
-</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0b0d;
+    color: #f5f5f5;
+}
+
+/* HEADER */
+
+header {
+    background-color: #0b0b0d;
+    padding: 30px 8%;
+    border-bottom: 1px solid #292929;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+header > p {
+    color: #e63946;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+/* NAVIGATION */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: #b8bcc2;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 70px 8%;
+}
+
+section h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #e63946;
+    margin-top: 12px;
+}
+
+/* PRODUCT */
+
+#product {
+    background:
+        radial-gradient(circle at 70% 30%, #292c31 0%, #111214 45%, #0b0b0d 80%);
+}
+
+#product img {
+    display: block;
+    width: min(750px, 100%);
+    height: auto;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+#product > p {
+    max-width: 750px;
+    margin: 30px auto;
+    color: #b8bcc2;
+    line-height: 1.8;
+    text-align: center;
+}
+
+#product h3 {
+    margin: 45px 0 20px;
+    color: #e63946;
+    letter-spacing: 2px;
+}
+
+#product ul {
+    list-style: none;
+}
+
+#product li {
+    background: #181a1d;
+    border-left: 3px solid #e63946;
+    padding: 18px 20px;
+    margin: 10px 0;
+    color: #d1d1d1;
+}
+
+/* HOW TO USE */
+
+#howto {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+#howto h2 {
+    color: #111;
+}
+
+.step {
+    background: white;
+    border-left: 4px solid #e63946;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.step h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.step p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* HOW TO BUY */
+
+#buy {
+    background: #111214;
+}
+
+#buy > p {
+    color: #b8bcc2;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+#buy ol {
+    margin: 30px 0 30px 25px;
+    line-height: 2.2;
+    color: #d0d0d0;
+}
+
+/* BUTTON */
+
+button {
+    padding: 16px 35px;
+    border: none;
+    background: #e63946;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: white;
+    color: #111;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 35px 8%;
+    text-align: center;
+    background: #070708;
+    border-top: 1px solid #252525;
+    color: #777;
+    font-size: 13px;
+}
+
+/* PHONE */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 5%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 10px 12px 0 0;
+        font-size: 12px;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    #product img {
+        width: 100%;
+    }
+}
