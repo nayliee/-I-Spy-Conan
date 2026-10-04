@@ -281,3 +281,14 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+#product .feature-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 20px !important;
+}
+
+#product .feature-grid > .feature-card {
+    display: block !important;
+    width: auto !important;
+    margin: 0 !important;
+}
