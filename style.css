@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I SPY CONAN | Smart Camera Detector</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            I SPY <span>CONAN</span>
+        </div>
+
+        <nav>
+            <a href="#product">Product</a>
+            <a href="#howto">How to Use</a>
+            <a href="#buy">How to Buy</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">SMART SECURITY TECHNOLOGY</p>
+
+            <h1>
+                YOUR PRIVACY.<br>
+                <span>OUR PRIORITY.</span>
+            </h1>
+
+            <p class="description">
+                I Spy Conan is a portable camera detector designed
+                to help users detect suspicious hidden cameras
+                in their surroundings.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#buy" class="btn primary">
+                    BUY NOW
+                </a>
+
+                <a href="#product" class="btn secondary">
+                    LEARN MORE
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-product">
+
+            <div class="scan-circle">
+                <div class="scan-line"></div>
+
+                <div class="product-placeholder">
+                    I SPY<br>
+                    CONAN
+                </div>
+            </div>
+
+            <p class="status">
+                ● SECURITY SYSTEM READY
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Product Information -->
+    <section id="product" class="section">
+
+        <p class="small-title">01 — PRODUCT INFORMATION</p>
+
+        <h2>
+            Security that<br>
+            <span>travels with you.</span>
+        </h2>
+
+        <p class="section-description">
+            I Spy Conan combines portability, smart features and
+            convenient technology to provide an easy way to scan
+            your surroundings for suspicious cameras.
+        </p>
+
+
+        <div class="features">
+
+            <div class="feature-card">
+
+                <div class="feature-number">01</div>
+
+                <h3>NFC ACCESS</h3>
+
+                <p>
+                    Tap your phone on the NFC area to access
+                    the user manual and usage guide.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">02</div>
+
+                <h3>MAGNETIC DESIGN</h3>
+
+                <p>
+                    The magnetic feature allows the device
+                    to attach easily to the back of your phone.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">03</div>
+
+                <h3>LOUD ALARM</h3>
+
+                <p>
+                    A loud alarm provides an immediate alert
+                    when a suspicious detection occurs.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">04</div>
+
+                <h3>PORTABLE</h3>
+
+                <p>
+                    Compact and lightweight design makes
+                    I Spy Conan easy to carry anywhere.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- How To Use -->
+    <section id="howto" class="how-section">
+
+        <p class="small-title">02 — HOW TO USE</p>
+
+        <h2>
+            Scan.<br>
+            <span>Detect. Stay Safe.</span>
+        </h2>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">01</div>
+
+                <div>
+                    <h3>TURN ON</h3>
+
+                    <p>
+                        Turn on the I Spy Conan camera detector
+                        before starting your scan.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">02</div>
+
+                <div>
+                    <h3>SCAN THE AREA</h3>
+
+                    <p>
+                        Slowly move the detector around the
+                        area you want to check.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">03</div>
+
+                <div>
+                    <h3>CHECK THE ALERT</h3>
+
+                    <p>
+                        When suspicious detection occurs,
+                        the device will produce a loud alarm.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">04</div>
+
+                <div>
+                    <h3>ACCESS NFC MANUAL</h3>
+
+                    <p>
+                        Tap your smartphone on the NFC area
+                        to access the product guide.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- How To Buy -->
+    <section id="buy" class="buy-section">
+
+        <div class="buy-content">
+
+            <p class="small-title">03 — HOW TO BUY</p>
+
+            <h2>
+                Ready to protect<br>
+                <span>your privacy?</span>
+            </h2>
+
+            <p>
+                Get your I Spy Conan and bring smart security
+                technology wherever you go.
+            </p>
+
+
+            <div class="buy-steps">
+
+                <p><span>01</span> Choose your quantity</p>
+
+                <p><span>02</span> Contact our seller</p>
+
+                <p><span>03</span> Confirm your order</p>
+
+                <p><span>04</span> Complete payment</p>
+
+            </div>
+
+
+            <button onclick="buyNow()" class="buy-button">
+                GET I SPY CONAN →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            I SPY <span>CONAN</span>
+        </div>
+
+        <p>
+            Smart Camera Detection Technology
+        </p>
+
+        <p class="copyright">
+            © 2026 I Spy Conan. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        function buyNow() {
+
+            alert(
+                "Thank you for your interest in I Spy Conan!"
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>
