@@ -224,4 +224,61 @@ footer {
     #product img {
         width: 100%;
     }
+/* FEATURE CARDS */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.feature-card {
+    background: #181a1d;
+    border: 1px solid #303237;
+    padding: 30px 25px;
+    min-height: 230px;
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-7px);
+    border-color: #e63946;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.feature-card span {
+    color: #e63946;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.feature-card h3 {
+    color: white !important;
+    margin: 45px 0 15px !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.feature-card p {
+    color: #9fa3a9;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* PHONE */
+
+@media (max-width: 500px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
 }
